@@ -1,0 +1,167 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  background: #f043d6;
+  box-sizing: border-box;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  color: #bddd1e;
+  font-weight: bold;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  border: 4px solid #000000;
+}
+
+.data-table th,
+.data-table td {
+  border: 2px solid #000000;
+  padding: 2px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #f03737;
+}
+
+.data-table td {
+  background-color: #abed83;
+}
+
+.search-date-container {
+  margin-bottom: 20px;
+  max-width: 200px;
+  display: flex;
+  margin-left: 435px;
+  margin-top: -60px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.search-container {
+  max-width: 300px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.search-container input,
+.search-date-container input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+
+.search-date-container button {
+  background-color: #008CBA;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: -130px;
+  transition: background-color 0.3s ease;
+}
+
+
+.search-date-container button:hover {
+  background-color: #1edd1e;
+}
+
+.sort-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+  margin-left: -40px;
+}
+
+.total-cost-container {
+  margin-top: 20px;
+  font-weight: bold;
+  display: flex;
+  border: 3px solid #008CBA;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf00a;
+  max-width: 200px;
+}
+
+.total-weight-container {
+  margin-top: 20px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 560px;
+  margin-top: -60px;
+  border: 3px solid #008CBA;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf00a;
+}
+
+.Submit-button {
+  cursor: pointer;
+}
+
+.Submit-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.Cancel-button {
+  cursor: pointer;
+}
+
+.Cancel-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.Edit-button {
+  cursor: pointer;
+}
+
+.Edit-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.Delete-button {
+  cursor: pointer;
+}
+
+.Delete-button img {
+  width: 20px;
+  height: 20px;
+}
